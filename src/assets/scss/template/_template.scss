@@ -11,45 +11,6 @@ html,
   padding: 0;
 }
 
-// Header
-.header {
-  background: $charcoal;
-  background-color: $charcoal;
-
-  .columns {
-
-    padding-bottom: 0;
-
-    &.logo {
-      padding-left: 0 !important;
-    }
-
-    &.last {
-      padding-top: 20px;
-      padding-right: 10px;
-      padding-bottom: 0px;
-    }
-
-    a {
-      padding-top: 20px;
-
-      &.button {
-        padding: 8px 20px;
-        background: $economy-blue;
-        background-color: $economy-blue;
-        color: white;
-        font-weight: lighter;
-        font-size: 24px;
-        border-radius: 5%;
-        float: right;
-      }
-    }
-  }
-
-  .economist-logo {
-    width: 180px;
-  }
-}
 
 // Date Section
 .date {
@@ -67,14 +28,14 @@ html,
   .date-format {
     // padding: 5px 0;
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 14px;
     color: $charcoal;
     // margin: 0;
   }
 
   .-container {
     float: right;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     color: $charcoal;
 
@@ -87,148 +48,19 @@ html,
 
   .columns {
     h1 {
-      font-size: 52px;
+      font-size: 36px;
       font-family: 'Ibarra Real Nova', serif;
     }
 
     p {
       color: $charcoal;
       font-weight: 100;
-      font-size: 26px;
+      font-size: 16px;
     }
 
     img {
-      width: 34px;
+      width: 25px;
     }
-  }
-
-}
-
-/* Big Screen only */
-@media screen and (min-width: 596px) {
-
-  // HEADER SECTION
-  .header {
-
-    .columns {
-
-      &.last {
-        padding-top: 16px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-      }
-
-      a {
-
-        &.button {
-          padding: 8px 18px;
-          font-size: 14px;
-        }
-      }
-    }
-
-    .economist-logo {
-      width: 130px;
-    }
-  }
-
-  // DATE SECTION
-  .date {
-    padding-top: 20px;
-
-    .columns {
-      padding-top: 10px;
-      padding-bottom: 0;
-      ;
-    }
-
-
-    .date-format {
-      font-size: 14px;
-    }
-
-    .-container {
-      font-size: 14px;
-      font-weight: 600;
-    }
-  }
-
-  // TITLE SECTION
-  .title-section {
-
-    .columns {
-      h1 {
-        font-size: 36px;
-      }
-
-      p {
-        font-size: 16px;
-      }
-
-      img {
-        width: 25px;
-      }
-    }
-
-  }
-}
-
-/* Mobile Screen only */
-@media screen and (max-width: 400px) {
-
-  // HEADER SECTION
-  .header {
-
-    .columns {
-
-      &.last {
-        padding-top: 16px;
-      }
-
-      a {
-        &.button {
-          padding: 8px 18px;
-          font-size: 14px;
-        }
-      }
-    }
-
-    .economist-logo {
-      width: 130px;
-    }
-  }
-
-  // DATE SECTION
-  .date {
-    padding-top: 20px;
-
-    .date-format {
-      font-size: 14px;
-    }
-
-    .-container {
-      font-size: 14px;
-      font-weight: 600;
-    }
-  }
-
-  // TITLE SECTION
-  .title-section {
-
-    .columns {
-      h1 {
-        font-size: 36px;
-      }
-
-      p {
-        font-size: 16px;
-      }
-
-      img {
-        width: 25px;
-      }
-    }
-
   }
 
 }
