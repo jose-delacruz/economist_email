@@ -2,25 +2,41 @@
 layout: economist
 subject: The Economist
 ---
+
 <container>
-  <row class="headline">
+  <row class="headline-image">
     <columns style="padding:0;">
-      <img src="{{ root }}assets/img/economist_files/viktor_orban_headline.jpg" alt="first-image">
+      <img
+        src="{{ root }}assets/img/economist_files/viktor_orban_headline.jpg"
+        alt="first-image"
+      />
     </columns>
   </row>
-  <row>
-    <columns>
-      <p>The entanglement of powers</p>
-      <h4>How Viktor Orban hollowed out Hungary's democracy</h4>
-      <p>The prime minister and his associates have turned Hungary into something akin to a one-party state
-      </p>
-      <spacer size="20"></spacer>
-      <p>
+  <row class="headline-details">
+    <p
+      class="red-title"
+      style="color: red; font-size: 14px; text-align: center; margin-top: 30px;"
+    >
+      The entanglement of powers
+    </p>
+
+    <h4 class="title">How Viktor Orban hollowed out Hungary's democracy</h4>
+
+    <p class="description">
+      The prime minister and his associates have turned Hungary into something
+      akin to a one-party state
+    </p>
+
+    <spacer size="20"></spacer>
+    <row>
+      <p class="relation">
         Related
       </p>
-      <p>
+    </row>
+    <row>
+      <p class="relation-link">
         → Read our leader: Cynicism is gnawing at Western democracies
       </p>
-    </columns>
+    </row>
   </row>
 </container>
