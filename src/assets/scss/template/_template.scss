@@ -1,7 +1,7 @@
 // These are the styles to make some of the templates look extra nice.
 // Feel free to remove these styles for production!
 
-// Body Styles 
+// Body Styles
 body,
 html,
 .body {
@@ -11,6 +11,14 @@ html,
   padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ibarra Real Nova", serif;
+}
 
 // Date Section
 .date {
@@ -21,9 +29,7 @@ html,
   .columns {
     padding-top: 10px;
     padding-bottom: 0;
-    ;
   }
-
 
   .date-format {
     // padding: 5px 0;
@@ -38,18 +44,18 @@ html,
     font-size: 14px;
     font-weight: 600;
     color: $charcoal;
-
   }
 }
 
+// Title Section
 .title-section {
-  background: #FFFFFF;
-  background-color: #FFFFFF;
+  background: #ffffff;
+  background-color: #ffffff;
 
   .columns {
     h1 {
       font-size: 36px;
-      font-family: 'Ibarra Real Nova', serif;
+      font-family: "Ibarra Real Nova", serif;
     }
 
     p {
@@ -62,5 +68,76 @@ html,
       width: 25px;
     }
   }
+}
 
+// Headline Image
+.headliner-today {
+  &>tbody>tr>th.columns {
+
+    padding-bottom: 16px;
+
+    &.first {
+      padding-left: 0 !important;
+    }
+
+    &.last {
+      padding-right: 0 !important;
+    }
+  }
+
+  .red-title {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-weight: 100;
+  }
+
+  .title {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .description {
+    text-align: center;
+    font-weight: 100;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .top-line,
+  .bottom-line {
+    background: #f2f2f2;
+    background-color: #f2f2f2;
+    display: block;
+    height: 1px;
+    width: 32rem;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .relation {
+    margin-left: 30px;
+    color: red;
+    font-weight: 600;
+  }
+
+  .relation-link {
+    margin-left: 30px;
+    font-weight: 100;
+    font-size: 16px;
+
+    .arrow {
+      font-weight: 600;
+    }
+
+    >a {
+      text-decoration: none;
+      color: black;
+    }
+  }
 }
