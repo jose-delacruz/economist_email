@@ -86,7 +86,7 @@ h6 {
   }
 
   .red-title {
-    color: red;
+    color: #e60000;
     font-size: 14px;
     text-align: center;
     margin-top: 30px;
@@ -122,7 +122,7 @@ h6 {
 
   .relation {
     margin-left: 30px;
-    color: red;
+    color: #e60000;
     font-weight: 600;
   }
 
@@ -140,4 +140,136 @@ h6 {
       color: black;
     }
   }
+}
+
+.gray-background {
+  background: $primary-color;
+  background-color: $primary-color;
+}
+
+.topics-today {
+
+  &>tbody>tr>th.columns {
+
+    padding-bottom: 16px;
+
+    &.first {
+      padding-left: 0 !important;
+    }
+
+    &.last {
+      padding-right: 0 !important;
+    }
+  }
+
+  .red-title {
+    color: #e60000;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-weight: 100;
+  }
+
+  .title {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .description {
+    text-align: center;
+    font-weight: 100;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+.reader-letter-today {
+  .columns {
+    padding-top: 30px;
+    padding-right: 45px !important;
+    padding-bottom: 5px;
+    padding-left: 45px !important;
+  }
+
+  .description {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5;
+
+    .reader-intro {
+      font-weight: 700;
+    }
+
+    a {
+      color: #e60000;
+      text-decoration: underline;
+      font-weight: 100;
+    }
+  }
+}
+
+.twelve-weeks {
+  &>tbody>tr>th.columns {
+
+    padding-bottom: 0;
+
+    &.first {
+      padding-left: 0 !important;
+    }
+
+    &.last {
+      padding-right: 0 !important;
+    }
+  }
+}
+
+.subscription-footer {
+  background: $primary-color;
+  background-color: $primary-color;
+
+  p {
+    font-size: 14px;
+    color: #8c8c8c;
+    text-align: center;
+    font-weight: 100;
+
+
+    a {
+      text-decoration: underline;
+      color: #a6a6a6;
+    }
+  }
+}
+
+.footer-icons {
+  background: $primary-color;
+  background-color: $primary-color;
+
+  .columns {
+
+    a {
+      text-align: center;
+
+      img {
+        width: 20px;
+        height: 20px;
+        margin: 0 auto;
+        display: inline-block;
+        margin-right: 40px;
+
+        &.facebook {
+          width: 11px;
+        }
+      }
+    }
+
+    th {
+      text-align: center;
+    }
+
+  }
+
 }
