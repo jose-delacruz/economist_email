@@ -1,50 +1,50 @@
 {
   "headlinerToday": {
-    "image": "/assets/img/economist_files/viktor_orban_headline.jpg",
+    "image": "https://i.imgur.com/ELwFNDW.jpg",
     "tagline": "The entanglement of powers",
     "title": "How Viktor Orban hollowed out Hungary's democracy",
     "description": "The prime minister and his associates have turned Hungary into something akin to a one-party state",
     "relationTitle": "Read our leader: Cynicism is gnawing at Western democracies "
   },
   "articleToday": [{
-      "image": "/assets/img/economist_files/donald_trump_headline.jpg",
+      "image": "https://i.imgur.com/aCschop.jpg",
       "tagline": "The force awakens?",
       "title": "Donald Trump creates Space command but must wait for Space Force",
       "description": "The Pentagon's new command will control war in space; a separate service would train those who wage it"
     },
     {
-      "image": "/assets/img/economist_files/plutocracy_headline.jpg",
+      "image": "https://i.imgur.com/tXgVRGe.jpg",
       "tagline": "Lexington",
       "title": "Plutocracy is a feature of American democracy, not a bug",
       "description": "The tendencies the Koch brothers represent are not new, but cyclical"
     },
     {
-      "image": "/assets/img/economist_files/german_recession_headline.png",
+      "image": "https://i.imgur.com/GgqzK6R.png",
       "tagline": "Daily chart",
       "title": "Fears of a German recession are rising",
       "description": "A downturn in Europe's biggest economy could spread across the region"
     },
     {
-      "image": "/assets/img/economist_files/farming_headline.jpg",
+      "image": "https://i.imgur.com/XGWhiDN.jpg",
       "tagline": "Horticulture",
       "title": "The foody benefits of farming vertically",
       "description": "Long-forgotten varieties of fruit and vegetables can stage a comeback"
     },
     {
-      "image": "/assets/img/economist_files/uganda_headline.jpg",
+      "image": "https://i.imgur.com/j3RRT0b.jpg",
       "tagline": "Blue-sky thinking",
       "title": "Uganda is the latest African country to revive its national airline",
       "description": "Most lose money, so why  are governments keen on them?"
     },
     {
-      "image": "/assets/img/economist_files/vaxxers_headline.jpg",
+      "image": "https://i.imgur.com/KMKgKkT.jpg",
       "tagline": "Stories of an extraordinary world",
       "title": "The original anti-vaxxers",
       "description": "How the zeal of Edward Jenner contributed to today's culture wars"
     },
     {
-      "image": "/assets/img/economist_files/billionaires_headline.jpg",
-      "tagline": "the Economist asks",
+      "image": "https://i.imgur.com/CmOWSO2.jpg",
+      "tagline": "The Economist asks",
       "title": "Should billionaires call the shots on solving global problems?",
       "description": "In this week's podcast, we speak to Anand Giridharadas, an American author"
     }
