@@ -4,8 +4,8 @@ subject: The Economist
 ---
 
 <container>
-  <row class="headliner-today">
-    <columns>
+  <row>
+    <columns class="headliner-today" small="12" large="12">
       <img src="{{root}}{{theEconomist.headlinerToday.image}}" alt="first-image" class="viktor_image" />
       <p class=" red-title">{{theEconomist.headlinerToday.tagline}}</p>
 
@@ -15,7 +15,10 @@ subject: The Economist
         {{theEconomist.headlinerToday.description}}
       </p>
       <spacer size="20"></spacer>
+
       <span class="top-line"></span>
+
+
       <span class="relation">Related</span>
       <span class="bottom-line"></span>
       <p class="relation-link"> <span class="arrow">&rarr; </span><a
@@ -89,7 +92,7 @@ subject: The Economist
   </row>
   <row class="subscription-footer">
     <columns>
-      <p>This e-mail has been sent to: <a href="#">ironman19@email.com</a><br>
+      <p>This e-mail has been sent to: <a href="#">email19@email.com</a><br>
         If you'd like to update your details please <a href="#">click here</a> (you may need to log in). <br>
         Replies to this e-mail will not reach us.</p>
       <spacer size="20"></spacer>
@@ -106,9 +109,9 @@ subject: The Economist
 
       <a href="#"><img src="https://i.imgur.com/3RwlfU4.png"></a>
     </columns>
-    <!-- <row class="gray-background">
+    <row class="gray-background">
       <columns>
       </columns>
-    </row> -->
+    </row>
   </row>
 </container>
